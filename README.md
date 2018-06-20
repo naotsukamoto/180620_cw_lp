@@ -2,7 +2,7 @@
 
 ## whats this
 
-this is the a landing page
+this is a landing page
 
 ## Outputs
 
