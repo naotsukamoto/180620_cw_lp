@@ -1,0 +1,426 @@
+/* PC向け */
+@media screen and (min-width: 767px){
+
+  .container{
+    height:1000px;
+    width: 100%;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',  sans-serif;
+  }
+  .main-title{
+    position: relative;
+    font-size: 30px;
+    left:50px;
+    top:50px;
+    color: #1F4F83;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", HelveticaNeue, Arial, "游ゴシック体", YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
+    font-weight: bold;
+  }
+  .main{
+    position: relative;
+    top:80px;
+    left: 150px;
+    height:650px;
+    width:900px;
+
+  }
+  .top{
+    position:absolute;
+    margin:10px;
+    height:600px;
+    width:500px;
+    background-image: url("../img/sozai1.jpg");
+    background-size: cover;
+  }
+  .top-title{
+    background:#1F4F83;
+    margin-top:10px;
+    width:60%;
+    color:white;
+    font-size:30px;
+    text-align:center;
+    padding: 0;
+  }
+  .top-subtitle{
+    background:#1F4F83;
+    color:white;
+    font-size:16px;
+  }
+  .inside-comment{
+    position:relative;
+    left:50px;
+    top:60px;
+    font-size:36px;
+    color:#191970;
+  }
+  .inside-discription{
+    position:relative;
+    top:150px;
+    color:white;
+    font-size: 18px;
+    background:rgba(0,0,0,0.4);
+    padding:10px;
+    font-style: italic;
+  }
+  .box{
+    position:absolute;
+    margin:10px;
+    margin-left:20px;
+    left: 500px;
+    height:600px;
+    width:350px;
+  }
+  .box-title{
+    margin:10px;
+    margin-top: 0;
+    height:88px;
+    width:320px;
+    background:rgba(0,0,0,0.4);
+    color:yellow;
+    font-size:24px;
+    position:relative;
+    line-height: 90px;
+    display: block;
+    background: -moz-linear-gradient(to bottom,#000, #008080,80%, #000);
+    background: -webkit-linear-gradient(to bottom,#000, #008080,80%, #000);
+    background: linear-gradient(to bottom,#000, #008080,80%, #000);
+  }
+  .box-title p{
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    line-height: 100%;
+    width:300px;
+    text-align: center;
+  }
+  .box1,.box2,.box3{
+    margin:10px;
+    height:160px;
+    width:320px;
+    background-color: darkseagreen;
+    padding:5px;
+    position: relative;
+    background: -moz-linear-gradient(135deg,#008080, #C9C49B, 80%,#008080);
+    background: -webkit-linear-gradient(135deg,#008080, #C9C49B, 80%,#008080);
+    background: linear-gradient(135deg,#008080, #C9C49B, 80%,#008080);
+  }
+  .box1-num,.box2-num,.box3-num{
+    width:40%;
+    background:rgba(0,0,0,1);
+    float:left;
+    color:white;
+    height: 50%;
+    font-size: 36px;
+    vertical-align: middle;
+    position: relative;
+  }
+  .box1-title,.box2-title,.box3-title{
+    width:60%;
+    font-size: 18px;
+    background:rgba(0,0,0,0.4);
+    display: inline-block;
+    float:right;
+    height: 50%;
+    vertical-align: middle;
+    position: relative;
+
+  }
+  .box1-num p,.box2-num p,.box3-num p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    line-height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .box1-title p,.box2-title p,.box3-title p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    line-height: 100%;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .box1-discription,.box2-discription,.box3-discription{
+    height: 50%;
+    font-size: 16px;
+    position: relative;
+  }
+  .footer{
+    position: relative;
+    top:80px;
+    left: 150px;
+    height:100px;
+    width:840px;
+    margin: 10px;
+    background-color: snow;
+  }
+
+  .footer-title{
+    float:left;
+    margin:10px;
+    height:80%;
+    width:350px;
+    text-align: center;
+    position: relative;
+  }
+
+  .footer-title p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    width: 200px;
+    text-align: center;/*一 応BOX内の文字も中央寄せ*/
+  }
+
+
+  .footer-comment{
+    float:right;
+    margin:10px;
+    height:80px;
+    width:450px;
+    padding:5px;
+    position: relative;
+
+  }
+
+  .footer-comment p{
+    position:absolute;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+  }
+}
+
+
+
+
+/* スマホ向け */
+
+@media screen and (max-width: 767px){
+  .container{
+    height:1000px;
+    width: 100%;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',  sans-serif;
+  }
+  .main-title{
+    position: relative;
+    font-size: 30px;
+    left:50px;
+    top:50px;
+    color: #1F4F83;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", HelveticaNeue, Arial, "游ゴシック体", YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium", sans-serif;
+    font-weight: bold;
+  }
+  .main{
+    position: relative;
+    height:650px;
+    width:100%;
+    margin:10px;
+    margin-top: 60px;
+  }
+  .top{
+    position:absolute;
+    margin:10px;
+    height:600px;
+    width:500px;
+    background-image: url("./img/sozai1.jpg");
+    background-size: cover;
+  }
+  .top-title{
+    background:#1F4F83;
+    margin-top:10px;
+    width:60%;
+    color:white;
+    font-size:30px;
+    text-align:center;
+    padding: 0;
+  }
+  .top-subtitle{
+    background:#1F4F83;
+    color:white;
+    font-size:16px;
+  }
+  .inside-comment{
+    position:relative;
+    left:50px;
+    top:60px;
+    font-size:36px;
+    color:#191970;
+  }
+  .inside-discription{
+    position:relative;
+    top:150px;
+    color:white;
+    font-size: 18px;
+    background:rgba(0,0,0,0.4);
+    padding:10px;
+    font-style: italic;
+  }
+  .box{
+    position:absolute;
+    margin:10px;
+    margin-left:20px;
+    left: 500px;
+    height:600px;
+    width:350px;
+  }
+  .box-title{
+    margin:10px;
+    margin-top: 0;
+    height:88px;
+    width:320px;
+    background:rgba(0,0,0,0.4);
+    color:yellow;
+    font-size:24px;
+    position:relative;
+    line-height: 90px;
+    display: block;
+    background: -moz-linear-gradient(to bottom,#000, #008080,80%, #000);
+    background: -webkit-linear-gradient(to bottom,#000, #008080,80%, #000);
+    background: linear-gradient(to bottom,#000, #008080,80%, #000);
+  }
+  .box-title p{
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    line-height: 100%;
+    width:300px;
+    text-align: center;
+  }
+  .box1,.box2,.box3{
+    margin:10px;
+    height:160px;
+    width:320px;
+    background-color: darkseagreen;
+    padding:5px;
+    position: relative;
+    background: -moz-linear-gradient(135deg,#008080, #C9C49B, 80%,#008080);
+    background: -webkit-linear-gradient(135deg,#008080, #C9C49B, 80%,#008080);
+    background: linear-gradient(135deg,#008080, #C9C49B, 80%,#008080);
+  }
+  .box1-num,.box2-num,.box3-num{
+    width:40%;
+    background:rgba(0,0,0,1);
+    float:left;
+    color:white;
+    height: 50%;
+    font-size: 36px;
+    vertical-align: middle;
+    position: relative;
+  }
+  .box1-title,.box2-title,.box3-title{
+    width:60%;
+    font-size: 18px;
+    background:rgba(0,0,0,0.4);
+    display: inline-block;
+    float:right;
+    height: 50%;
+    vertical-align: middle;
+    position: relative;
+
+  }
+  .box1-num p,.box2-num p,.box3-num p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    line-height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .box1-title p,.box2-title p,.box3-title p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    line-height: 100%;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .box1-discription,.box2-discription,.box3-discription{
+    height: 50%;
+    font-size: 16px;
+    position: relative;
+  }
+  .footer{
+    position: relative;
+    top:80px;
+    left: 150px;
+    height:100px;
+    width:840px;
+    margin: 10px;
+    background-color: snow;
+  }
+
+  .footer-title{
+    float:left;
+    margin:10px;
+    height:80%;
+    width:350px;
+    text-align: center;
+    position: relative;
+  }
+
+  .footer-title p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    width: 200px;
+    text-align: center;/*一 応BOX内の文字も中央寄せ*/
+  }
+
+
+  .footer-comment{
+    float:right;
+    margin:10px;
+    height:80px;
+    width:450px;
+    padding:5px;
+    position: relative;
+
+  }
+
+  .footer-comment p{
+    position:absolute;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform : translateY(-50%);
+    transform : translateY(-50%);
+  }
+
+
+  .sp-br{
+    display: block;
+  }
+
+
+}
